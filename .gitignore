@@ -1,0 +1,44 @@
+# Directorios de datos (muy grandes)
+../../datasets/
+../../data/
+
+# Directorios de salida
+../../outputs/
+../../renders/
+
+# Directorios de herramientas
+../../tools/
+
+# Backups
+../../cluster_backup/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+.env
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# SLURM logs (comentado - podemos querer incluir algunos)
+# *.out
+# *.err
+
+# Checkpoints y modelos guardados
+*.pth
+*.ckpt
+*.pt
