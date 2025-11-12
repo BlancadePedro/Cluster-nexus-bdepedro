@@ -2,9 +2,12 @@
 ../../datasets/
 ../../data/
 
-# Directorios de salida
+# Directorios de salida (excluir, excepto examples_results/)
 ../../outputs/
 ../../renders/
+
+# Ejemplos de resultados (SÍ incluir en repo)
+!examples_results/
 
 # Directorios de herramientas
 ../../tools/
